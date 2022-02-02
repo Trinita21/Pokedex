@@ -1,3 +1,45 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+body {
+  background-color: white;
+  /* background-color: burlywood; */
+  /* font-family: "Pokemon Solid", sans-serif; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1.3rem;
+  padding: 0.5rem 1.1rem;
+  border: 5px solid;
+  background-color: #f03030;
+  /* flex-direction: row; */
+}
+.nav-title {
+  font-size: 4rem;
+  font-family: "Pokemon Solid", sans-serif;
+  /* color: rgb(255, 208, 0); */
+  /* color: white; */
+  color: rgb(255, 208, 0);
+
+  /* text-shadow: 0 0 10px black; */
+  text-shadow: 0 0 15px rgb(11, 118, 241);
+}
+.list {
+  display: flex;
+  padding: 2rem;
+  gap: 1.1rem;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  color: rgb(255, 208, 0);
+  /* color: white; */
+  /* margin: 1.2rem; */
+  /* border: 1px solid; */
+}
+
+ul {
+  /* text-decoration: none; */
+  list-style: none;
+}
+
 .card-element {
   width: 300px;
   border: 1px solid;
@@ -6,6 +48,7 @@
   padding: 1rem;
   /* background-color: rgb(248, 248, 65); */
   background-color: rgb(255, 208, 0);
+  /* opacity: 50%; */
   display: flex;
   /* place-items: center; */
   flex-direction: column;
