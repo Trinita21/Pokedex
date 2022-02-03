@@ -15,6 +15,10 @@ function printData(pokemon) {
   cardName.innerText = "Name:" + " " + pokemon.name;
   cardDetails.appendChild(cardName);
 
+  const pokeCardId = document.createElement("p");
+  pokeCardId.innerText = "ID:" + " " + pokemon.id;
+  cardDetails.appendChild(pokeCardId);
+
   const height = document.createElement("p");
   height.innerText = "Height:" + " " + pokemon.height;
   cardDetails.appendChild(height);

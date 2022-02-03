@@ -1,20 +1,25 @@
 @import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@200&family=Share+Tech+Mono&display=swap");
+
 body {
   background-color: white;
+  font-family: "Arvo", serif;
   /* background-color: burlywood; */
   /* font-family: "Pokemon Solid", sans-serif; */
 }
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin: 0.5rem 1.3rem;
-  padding: 0.5rem 1.1rem;
-  border: 5px solid;
+  /* margin: 0.5rem 1.3rem; */
+  padding: 0rem 1.1rem;
+  border: 3px solid;
+  border-radius: 0.5rem;
   background-color: #f03030;
   /* flex-direction: row; */
 }
 .nav-title {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: "Pokemon Solid", sans-serif;
   /* color: rgb(255, 208, 0); */
   /* color: white; */
@@ -25,14 +30,24 @@ body {
 }
 .list {
   display: flex;
-  padding: 2rem;
-  gap: 1.1rem;
+  padding: 1rem;
+  gap: 1rem;
+  font-weight: bold;
   justify-content: flex-end;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgb(255, 208, 0);
+  /*  */
   /* color: white; */
   /* margin: 1.2rem; */
   /* border: 1px solid; */
+}
+.list-items a {
+  text-decoration: none;
+  color: rgb(255, 208, 0) !important;
+}
+a:visited {
+  /* text-decoration: none; */
+  color: rgb(255, 208, 0) !important;
 }
 
 ul {
@@ -42,7 +57,7 @@ ul {
 
 .card-element {
   width: 300px;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 0.5rem;
   margin: 1rem;
   padding: 1rem;
@@ -58,7 +73,7 @@ ul {
 .card-element img {
   width: 150px;
   height: 150px;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 50%;
   margin: 0.5rem;
   background-color: white;
@@ -66,12 +81,13 @@ ul {
   /* text-align: center; */
 }
 .card-details {
-  border: 1px solid;
+  border: 2px solid;
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: white;
   width: 250px;
   min-height: 200px;
+  font-size: 0.9rem;
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-items: stretch; */
