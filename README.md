@@ -4,4 +4,4 @@ Pokedex uses PokeAPI for retreiving pokemon data and presenting them in Poke Car
 
 Gotta catch 'em all!
 
-![img](https://imgur.com/yGp4dLy)
+![img](https://imgur.com/yGp4dLy.gif)
